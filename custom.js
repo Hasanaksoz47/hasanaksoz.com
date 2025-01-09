@@ -162,8 +162,8 @@ document.getElementById('contactfrm').addEventListener('submit', function (event
     var mesaj = document.getElementById('comments').value;
 
     // Telegram Bot API URL'si
-    var token = "7782206979:AAE_JMIsLiSJaKpgEFFYU4eWaYHCXZqciAg"; // Bot token
-    var chatId = "5312871954"; // Chat ID (Bu sizin chat_id'niz)
+    var token = "7782206979:AAG-FzYPUbbK9jg-KZjDpmlktdPQVRC-ALc";
+            var chatId = "5312871954";
 
     var url = `https://api.telegram.org/bot${token}/sendMessage`;
 
